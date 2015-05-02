@@ -24,6 +24,7 @@ int main(void){
 	int MagicS[16]={0}, Magic[16]={0};
 	int Number[16]={0}, Count=0;
 	int input=0;
+	cout << " Input 16 numbers" << endl;
 	for(int inp=0;inp<16;inp++){
 		cin >> MagicS[inp];
 		for(int Chk=1;Chk<17;Chk++)
